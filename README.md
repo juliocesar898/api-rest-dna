@@ -21,11 +21,11 @@ $ npm install
 $ npm run dev
 ```
 
-📘 Full Swagger GUI are available at http://161.35.116.27/:40000/api/docs
+📘 Full Swagger GUI are available at http://161.35.116.27/api/docs
 
-📡 Full Swagger Online GUI are available ---> http://161.35.116.27//api/docs
+📡 Full Swagger Online GUI are available ---> http://161.35.116.27/api/docs
 
-🚀🚀 Actually you can see the api health at http://161.35.116.27//api/health
+🚀🚀 Actually you can see the api health at http://161.35.116.27/api/health
 
 
 ## Check if dna is special ✔
