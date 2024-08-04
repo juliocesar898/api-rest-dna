@@ -51,7 +51,7 @@ curl --location 'http://161.35.116.27/:4000/api/dashboard'
 
 ## Deployment 📦
 
-This project was deployed on Digital Ocean, you can see the docs in http://24.199.109.40/api/docs
+This project was deployed on Digital Ocean, you can see the docs in http://161.35.116.27/api/docs
 
 ## Built with 🛠️
 
