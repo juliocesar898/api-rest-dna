@@ -25,8 +25,10 @@ $ npm run dev
 
 📡 Full Swagger Online GUI are available ---> http://161.35.116.27/api/docs
 
-🚀🚀 Actually you can see the api health at http://161.35.116.27/api/health
-
+## Check API Status ✔
+```
+curl --location 'http://161.35.116.27/api/health'
+```
 
 ## Check if dna is special ✔
 ```
