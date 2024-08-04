@@ -21,16 +21,16 @@ $ npm install
 $ npm run dev
 ```
 
-📘 Full Swagger GUI are available at http://localhost:40000/api/docs
+📘 Full Swagger GUI are available at http://161.35.116.27/:40000/api/docs
 
-📡 Full Swagger Online GUI are available ---> http://unknow/api/docs
+📡 Full Swagger Online GUI are available ---> http://161.35.116.27//api/docs
 
-🚀🚀 Actually you can see the api health at http://unknow/api/health
+🚀🚀 Actually you can see the api health at http://161.35.116.27//api/health
 
 
 ## Check if dna is special ✔
 ```
-curl --location 'http://localhost:4000/api/dna' \
+curl --location 'http://161.35.116.27/:4000/api/dna' \
 --header 'Content-Type: application/json' \
 --data '{
     "dna": [
@@ -46,7 +46,7 @@ curl --location 'http://localhost:4000/api/dna' \
 
 ## Get DNA statistics ✔
 ```
-curl --location 'http://localhost:4000/api/dashboard'
+curl --location 'http://161.35.116.27/:4000/api/dashboard'
 ```
 
 ## Deployment 📦
