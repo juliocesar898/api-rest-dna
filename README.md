@@ -30,7 +30,7 @@ $ npm run dev
 
 ## Check if dna is special ✔
 ```
-curl --location 'http://161.35.116.27/:4000/api/dna' \
+curl --location 'http://161.35.116.27/api/dna' \
 --header 'Content-Type: application/json' \
 --data '{
     "dna": [
@@ -46,7 +46,7 @@ curl --location 'http://161.35.116.27/:4000/api/dna' \
 
 ## Get DNA statistics ✔
 ```
-curl --location 'http://161.35.116.27/:4000/api/dashboard'
+curl --location 'http://161.35.116.27/api/dashboard'
 ```
 
 ## Deployment 📦
