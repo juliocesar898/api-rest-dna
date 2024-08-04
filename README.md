@@ -7,7 +7,7 @@
 ### Prerequisites 📋
 
 ```
-Nodejs 14.x.x or higher
+Nodejs 16.x.x or higher
 ```
 
 ### Installation 🔧
@@ -30,19 +30,23 @@ $ npm run dev
 
 ## Check if dna is special ✔
 ```
-curl POST --location 'http://unknow/api/dna-special' \
+curl --location 'http://localhost:4000/api/dna' \
 --header 'Content-Type: application/json' \
 --data '{
-    "dna":[
+    "dna": [
         "AGGCGA",
-        "CATTGC",
-        "TAATGG",
-        "TCAAGT",
-        "CCCCTT",
+        "CGTTCC",
+        "TAATCG",
+        "TCAATT",
+        "CTCCTT",
         "TCATAA"
-        ]
-    }
-'
+    ]
+}'
+```
+
+## Get DNA statistics ✔
+```
+curl --location 'http://localhost:4000/api/dashboard'
 ```
 
 ## Deployment 📦
