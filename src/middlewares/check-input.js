@@ -4,9 +4,9 @@ const isValidDna = ({ body: { dna } }, res, next) => {
   try {
     const dimension = dna.length;
 
-    if (dimension < 4) {
+    if (dimension !== 6) {
       return next(
-        badRequest('La dimension de la matriz debe ser al menos de 4')
+        badRequest('La dimension de la matriz debe ser 6')
       );
     }
 
