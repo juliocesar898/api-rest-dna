@@ -16,6 +16,12 @@ const router = Router();
  *        application/json:
  *          schema:
  *            type: object
+ *            properties:
+ *              dna:
+ *                type: array
+ *                example: [AGGCGA,CGTTCC,TAATCG,TCAATT,CTCCTT,TCATAA]
+ *                items:
+ *                  type: string
  *    responses:
  *       200:
  *         description: OK
