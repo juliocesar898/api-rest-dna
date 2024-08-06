@@ -23,5 +23,5 @@ const dnaSchema = new Schema(
   }
 );
 
-const Product = model('dna', dnaSchema);
-module.exports = Product;
+const Dna = model('dna', dnaSchema);
+module.exports = Dna;
