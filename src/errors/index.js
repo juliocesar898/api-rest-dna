@@ -20,6 +20,5 @@ exports.errorHandler = (error, _, res, next) => {
     next(error);
     res.status(DEFAULT_STATUS_CODE);
   }
-  console.error(error);
   return res.send({ message: error.message });
 };

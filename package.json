@@ -4,11 +4,18 @@
   "description": "```\r Nodejs 14.x.x or higher\r ```",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage --runInBand --forceExit --detectOpenHandles"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliocesar898/api-rest-dna.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -28,6 +35,8 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
   }
 }
